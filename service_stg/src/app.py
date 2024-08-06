@@ -5,7 +5,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask
 
 from app_config import AppConfig
-from stg_loader.stg_message_processor_job import StgMessageProcessor
+from service_stg.src.stg_loader import StgMessageProcessor
 from stg_loader.repository.stg_repository import StgRepository
 
 app = Flask(__name__)

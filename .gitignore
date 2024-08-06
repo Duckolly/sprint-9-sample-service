@@ -3,6 +3,6 @@
 .vscode
 logs
 YandexInternalRootCA.crt
-
+kubeconfig
 __pycache__/
 .mypy_cache
